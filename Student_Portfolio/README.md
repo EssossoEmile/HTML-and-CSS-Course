@@ -1,5 +1,4 @@
-## JavaScript repository of AOLCC course
-# JavaScript Project Descriptions
+## JavaScript Project Descriptions
 
 ## Project2_functions  
 A foundational project focused on JavaScript functions, covering declaration, parameter handling, and return values. Demonstrated use of modular code for improved readability and reusability.
