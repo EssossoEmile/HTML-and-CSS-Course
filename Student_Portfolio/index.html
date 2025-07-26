@@ -2,89 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Essosso Belinga Emile - Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="portfolio.css" />
 </head>
 <body>
-  <div class="container py-5">
-    <header class="text-center mb-5">
-      <img src="images/profile.jpg" class="rounded-circle mb-3" width="150" alt="Profile photo" />
-      <h1>Essosso Belinga Emile</h1>
-      <p class="lead">Java Developer with DevOps Expertise</p>
-      <p>Brampton, Canada | +1 (647) 524-6547 | emile.essosso@gmail.com</p>
-    </header>
-
-    <section class="mb-5">
-      <h2>Description</h2>
-      <p>I am a collaborative professional with 10 years of experience in data warehousing, software development, and DevOps tools including AWS, Azure, OpenShift, and more. I enjoy working with teams and quickly adapt to new tools and technologies.</p>
-    </section>
-
-    <section class="mb-5">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Cloud:</strong> AWS, Azure, RedHat OpenShift, GAE, Heroku</li>
-        <li><strong>Languages & Frameworks:</strong> Java, Python, Flask, Spring, NodeJS, PHP</li>
-        <li><strong>Tools:</strong> Git, Jenkins, Docker, Terraform, Anaconda</li>
-        <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Cassandra</li>
-      </ul>
-    </section>
-
-    <section class="mb-5">
-      <h2>Experience</h2>
-      <h4>BAMindE (2023 – Now)</h4>
-      <p>Java Developer with DevOps Expertise. Designed mobile apps, backend APIs, ELK stack configuration, CI/CD pipelines, and infrastructure with Terraform.</p>
-
-      <h4>OpenClassrooms (2021 – 2022)</h4>
-      <p>Mentor in Java application development for French-speaking students.</p>
-
-      <h4>Udacity (2020 – 2022)</h4>
-      <p>Mentor and project reviewer in Java, Web, AWS, Cybersecurity tracks.</p>
-
-      <h4>Duo Code (2018 – 2023)</h4>
-      <p>Java engineer and cloud consultant for client and internal projects.</p>
-
-      <h4>AByster (2016 – 2018)</h4>
-      <p>Back Office coder. Developed online payment APIs and trained students in Java and MySQL.</p>
-
-      <h4>Wouri Technologies (2015)</h4>
-      <p>Web application developer and team brainstorm lead.</p>
-    </section>
-
-    <section class="mb-5">
-      <h2>Projects</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <p>Developed a mobile payment API integrated into Prestashop for international use.</p>
-        </div>
-        <div class="col-md-6">
-          <p>CI/CD and microservices project deployed using Jenkins, Docker, and Spring Boot.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="mb-5">
-      <h2>Education & Certifications</h2>
-      <ul>
-        <li>Bachelor's in Computer Science (2013–2014)</li>
-        <li>Spring Framework & Dependency Injection – Udemy (2019–2019)</li>
-        <li>Cloud Security Basics – Coursera (2019–2019)</li>
-        <li>MongoDB for Java Developers – MongoDB (2019–2019)</li>
-        <li>Udacity Mentorship & Front End Developer – Udacity (2019–2019)</li>
-      </ul>
-    </section>
-
-    <section class="mb-5">
-      <h2>Languages</h2>
-      <p>French (Native), English (Professional)</p>
-    </section>
-  </div>
-
-  <footer class="text-center py-3 bg-light mt-5">
-    <small>&copy; 2025 Essosso Belinga Emile</small>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <header>
+    <h1>Essosso Belinga Emile</h1>
+    <p>Java Developer with DevOps Expertise</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a collaborative professional with 10+ years of experience in delivering solutions for complex data warehousing, software development, and DevOps tasks. I'm proficient in Java, Spring, AWS, Docker, Jenkins, and more.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Spring Boot, Python, JavaScript, Node.js</li>
+      <li>AWS, Azure, RedHat Openshift</li>
+      <li>Docker, Jenkins, Git, Terraform</li>
+      <li>MySQL, PostgreSQL, MongoDB, Cassandra</li>
+    </ul>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><strong>BAMindE (2023–Now):</strong> Mobile apps, Spring APIs, CI/CD, Cassandra, ELK stack, Microservices.</p>
+    <p><strong>OpenClassrooms & Udacity:</strong> Java mentor and reviewer.</p>
+    <p><strong>Duo Code:</strong> Employee payroll system, Spring, Terraform, multi-cloud setup.</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Mobile App with Android and Spring backend</li>
+      <li>Real-time transaction system using Cassandra</li>
+      <li>CI/CD with Jenkins and Git</li>
+      <li>Static site deployed on AWS S3 with CloudFront</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: emile.essosso@gmail.com</p>
+    <p>Phone: +1 647 524 6547</p>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
